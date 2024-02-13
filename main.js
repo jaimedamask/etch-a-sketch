@@ -23,3 +23,9 @@ function makeGrid() {
     const fullWidthStr = fullWidth + 'px';
     container.style.width = fullWidthStr;
 }
+
+document.querySelectorAll('.square').forEach(item => {
+    item.addEventListener('mouseenter', darkenSquare => {
+        item.style.backgroundColor = '#000';
+    })
+})
