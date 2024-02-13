@@ -13,12 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
     width: 90%;
-}
-
-.square {
-    border: 1px solid red;
-    box-sizing: border-box;
 }
